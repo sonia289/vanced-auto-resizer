@@ -1,0 +1,5 @@
+weights: {text: 40, product: 35, person: 20, other: 5}
+analysis: {sample_fps: 2.0, max_analysis_frames: 180, detection_confidence: 0.25}
+layout: {smoothing_alpha: 0.16, max_pan_per_frame_ratio: 0.018, crop_min_protection: 0.985}
+qa: {review_confidence_below: 0.82, review_protection_below: 0.98}
+output: {video_crf: 20, preset: medium, audio_bitrate: 192k}
